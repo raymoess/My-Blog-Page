@@ -1,0 +1,11 @@
+.index-home-page, .dbz-page, .jjk-home-page, .aot-home-page{
+    background-color: #242424;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-header, .dbz-header, .aot-header, .jjk-header {
+    text-align: center;
+}
+.home-page-list{
+    color: white;
+}
