@@ -1,11 +1,18 @@
-.index-home-page, .dbz-page, .jjk-home-page, .aot-home-page{
+.index-home-page, .dbz-page, .jjk-page, .aot-page, .tabs-page{
     background-color: #242424;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.index-first-p{
+    text-align: center;
+}
 .home-header, .dbz-header, .aot-header, .jjk-header {
     text-align: center;
 }
-.home-page-list{
+.manga-page-list{
     color: white;
+}
+.manga-panels-link, .about-home-link{
+    color: white;
+    padding: .2em;
 }
