@@ -1,41 +1,94 @@
-.index-home-page, .port-page, .blog-page, .manga-page{
-    background-color: #242424;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
 }
-.index-head-container{
+.one{
+    background-color: #4e4e4e;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+ 
+
 }
-.manga-head-container{
+.top-header{
+    padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f9faf8;
+
+}
+.head-li{
+
+    color: #f9faf8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    gap: 20px;
+}
+.head-li a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.below-head-container{
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 50px;
+    gap: 20px;
     
 }
-
-.manga-div-one{
-    flex: 1;
-    padding-left: 10px;
-   
+.blow-head{
+    color: #f9faf8;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
-.manga-div-two{
-    padding-left: 200px;
-    flex: 1;
-}
-.home-header{
-    color: white;
-    font-size: 20px;
-
-}
-
-.manga-panels-link, .blog-home-link, .portfolio-home-link, .about-home-link{
-    color: white;
-    padding: .2em;
-}
-.footer{
+.below-header{
+    font-size: 30px;
     text-align: center;
+}
+.two{
+    background-color: rgb(110, 110, 110);
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.info-head{
+    font-weight: bold;
+    font-style: italic;
+    justify-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+.manga-img-container{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    gap: 20px;
+    
+}
+.img-desc{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.footer{
+    
+    background-color: #4e4e4e;
+    color: #e5e7eb;
+    padding: 25px;
+    font-size: small;
+    display: flex;
+    justify-content: center;    
+    align-content: flex-end;
 
 }
