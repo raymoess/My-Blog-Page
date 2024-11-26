@@ -50,6 +50,9 @@
     font-size: 30px;
     justify-content: center;
 }
+.about-desc{
+    width: 670px;
+}
 .two{
     background-color: rgb(110, 110, 110);
     color: #f9faf8;
@@ -57,12 +60,17 @@
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 .info-head{
     font-style: italic;
     padding: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+
 }
 .project-img-container{
     display: flex;
@@ -75,6 +83,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
     gap: 40px;
     
 }
