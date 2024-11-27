@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 .section-one{
     background-color: #4e4e4e;
     color: #f9faf8;
@@ -50,41 +51,38 @@
 .section-two{
     background-color: #eeeeee;
     color: #4e4e4e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
+    flex-wrap: wrap;
     padding: 50px;
-    overflow: hidden;
+    overflow-x: hidden;
+
+    
 }
 .info-head{
     font-style: italic;
     padding: 5px;
     margin-bottom: 35px;
 }
+.s2-project-container{
+    display: flex;
+    gap: 40px;
+
+}
 .project-container{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    width: 100%;
+    text-align: center; 
+}
+.project-img{
 
 }
-.project-img-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    
-}
-.project-desc-container{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    gap: 40px;
-    
-}
-.project-desc{
-    width: 250px;
-}
+
+
+
 .manga-img-container{
     display: flex;
     justify-content: center;
@@ -104,6 +102,8 @@
     color: #4e4e4e;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 
 }
 .background-container{
