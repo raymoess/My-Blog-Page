@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 
 }
 .section-one{
@@ -121,7 +122,6 @@
 }
 .background-container p{
     font-size: 13px;
-
 }
 
 .info-about-desc{
@@ -129,5 +129,4 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    width: 425px;
 }
