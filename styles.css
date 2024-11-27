@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
-.one{
+.section-one{
     background-color: #4e4e4e;
     display: flex;
     flex-direction: column;
@@ -53,9 +54,9 @@
 .about-desc{
     width: 670px;
 }
-.two{
-    background-color: rgb(110, 110, 110);
-    color: #f9faf8;
+.section-two{
+    background-color: #eeeeee;
+    color: #4e4e4e;
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -70,6 +71,7 @@
 .project-container{
     display: flex;
     flex-direction: column;
+    text-align: center;
 
 }
 .project-img-container{
@@ -82,7 +84,6 @@
 .project-desc-container{
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 15px;
     gap: 40px;
     
@@ -103,4 +104,30 @@
     align-items: center;
     padding: 30px;
     gap: 40px;
+}
+.section-three{
+    background-color: #f9faf8;
+    color: #4e4e4e;
+    display: flex;
+    justify-content: space-between;
+
+}
+.background-container{
+    padding: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.background-container p{
+    font-size: 13px;
+
+}
+
+.info-about-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 425px;
 }
