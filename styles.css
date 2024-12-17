@@ -124,3 +124,22 @@
     justify-content: center;
     gap: 20px;
 }
+.section-two-b{
+    color: #4e4e4e;
+    padding: 50px;
+}
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    width: 425px;    
+}
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+.blog-container h3{
+    font-style: italic;
+}
