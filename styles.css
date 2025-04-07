@@ -143,3 +143,16 @@
 .blog-container h3{
     font-style: italic;
 }
+
+.section-two-blog{
+    background-color: #f9faf8;
+    color: #4e4e4e;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+    
+
+}
+.section-two-blog .h1, .h3{
+    text-align: center;
+}
