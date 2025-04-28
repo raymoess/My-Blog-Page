@@ -140,19 +140,21 @@
     padding: 10px;
 
 }
-.blog-container h3{
-    font-style: italic;
-}
-
 .section-two-blog{
     background-color: #f9faf8;
     color: #4e4e4e;
     display: flex;
     justify-content: center;
     padding: 70px;
-    
 
 }
-.section-two-blog .h1, .h3{
+#concepts h1, #concepts h3{
+    font-style: italic;
     text-align: center;
+
+}
+#daily-life h1, #daily-life h3{
+    font-style: italic;
+    text-align: center;
+
 }
